@@ -1,3 +1,5 @@
+# This program helps check connectivity of mysql client with the program, often the most problematic step while dealing with sql.
+
 from mysql.connector import connect
 
 host = input('\nPlease enter below the required details for MYSQL CONNECTIVITY\n\nEnter host name (Leave blank for DEFAULT=localhost) :')
