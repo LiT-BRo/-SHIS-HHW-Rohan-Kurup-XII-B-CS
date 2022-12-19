@@ -1,3 +1,5 @@
+# This is program creates databases with full functionality and error detection.
+
 from mysql.connector import connect, Error
 
 db = connect(
